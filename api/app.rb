@@ -1,6 +1,6 @@
 require 'syro'
 
-require_relative "../lib/connector.rb"
+require_relative '../lib/connector.rb'
 
 Api = Syro.new do
   post do
@@ -9,4 +9,3 @@ Api = Syro.new do
     res.json(response.to_json)
   end
 end
-
