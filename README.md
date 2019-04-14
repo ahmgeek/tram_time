@@ -1,4 +1,4 @@
-# Tram Time, initial version
+# Tram Time
 this is a tiny ruby server, to count down the tram arrival time for me.
 It's connected to Alexa via personal skill.
 
