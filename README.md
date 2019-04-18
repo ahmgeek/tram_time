@@ -17,3 +17,8 @@ It's connected to Alexa via personal skill.
  - [ ] Add more info to the returned response.
  - [ ] Add slots/locations as a setup.
  - [ ] Add the Alexa json model.
+
+## Epilogue
+I may not work on any of the above tasks at all, the code works blazningly amazing, alexa tells me what I want every morning,
+and that's super cool. I wanted to add more features and make this works for everyone there, but I don't have time...
+you can reach me however for any questions 😘
