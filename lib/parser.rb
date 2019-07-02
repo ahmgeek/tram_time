@@ -11,9 +11,9 @@ class Parser
       response: {
         outputSpeech: {
           type: 'PlainText',
-          text: "Next tram will be here in #{cound_down.first} minutes, \
-And the one after will be here in #{cound_down[1]} minutes, \
-later on after #{cound_down.last} minutes"
+          text: "Next tram will be here in #{count_down.first} minutes, \
+And the one after will be here in #{count_down[1]} minutes, \
+later on after #{count_down.last} minutes"
         }
       }
     }
@@ -27,7 +27,7 @@ later on after #{cound_down.last} minutes"
     payload.dig('data', 'monitors', 0, 'lines', 0, 'departures', 'departure')
   end
 
-  def cound_down
+  def count_down
     [
       departure_times.dig(0, 'departureTime', 'countdown'),
       departure_times.dig(1, 'departureTime', 'countdown'),
